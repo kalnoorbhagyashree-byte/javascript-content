@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <script>
+        // function demo(){
+        //     document.getElementById("text").innerHTML="hello bhagya"
+        // }
+         let count=0
+        function increment(){
+           
+            count=count+5
+            count++
+            document.getElementById("count").innerHTML=count
+        }
+        let decount=10
+        function decrement(){
+            decount=decount-5
+            decount--
+            document.getElementById("decount").innerHTML=decount
+        }
+
+    </script>
+</head>
+<body>
+    <!-- <p id="text">Hello world</p>
+    <button onclick="demo()">User click</button> -->
+    <p id="count">0</p>
+    <button onclick="increment()">
+        +
+        </button>
+        <p id="decount">10</p>
+        <button onclick="decrement()">
+            -
+        </button>
+        <button onclick="RESET">RESET </button>
+</body>
+</html>
